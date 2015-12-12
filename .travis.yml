@@ -18,7 +18,7 @@ deploy:
   app: test
   domain: iteventstest
   on:
-    repo: Antonerof/itevents
+    repo: Antonerof/tomcat
 after_success:
 - git config --global user.email "travis@localhost.localdomain"
 - git config --global user.name "Travis CI"
