@@ -14,11 +14,7 @@ deploy:
   provider: openshift
   user: anttoshka@gmail.com
   password:
-      secure: "lfNt1DpzneBscCbRmnP1+yZWRphBWA+uZl5z+D+LU5bjqNs08ie3CNRGeJovlBuOUE4E5A9y2PTr+3o1GDqOICpBt/O5/GgwDd7kN0O+365M1Thjylj75jMqvIEzdxv/zyc8nb
-    YUcL8sTnvuhmYKtincNHfM5yjPOkjFH8GujwSNzspsdgBYZu/yOYlA9C47zC7i5dgxEZ6tk2k0+I8Vl8uwkvy8/+SZ5eICD9sp5biOKCJYrT91fX/3Dm8sHQV2Mr9gW/OOUQODPHW8uQN0Z6q
-    cMb44xag541jmoRxFGb9eSZqTtqrSFeOFd7XDJhc8S4VMOhr3oHDEJ8nufdAfXaJkEeDLRjsyqTNRmuARo6kJ/abTukMm0LTY4HsRHpKCst5hBV9KZwH+Kzp1tiZ5BJB2Vb/xrZjBK1svRocb
-    BvmeZDUGGbkzBrmfuViKL/D3Tyh4a6kt2EfBlSTECjvoDv2pspDXbuKLeFQwOi/sUumQbTn+rQ1/gOG6cyKS0/TX+1w4OLbfSKFOh+/89kVxttnrxgnkf7smKwP+knsVgq6LkoJqJ9S4Km7u1
-    rqqg7LHW/hLL29E93noINRE+Qn0Jy66npGq2O/B/68HLewCtT1TBBCS0C+ZgpcHgIO3vsx+9TC0ZJLdchfDL1guYWhhuttvGaBcinSgFWwxfs6cjX8="
+    secure: n0DjOa5M38/kt8A5ef9b4JQkBwtr/0hte3wH0nVZsZ9GhV3huGzlbV8zVxE4+okR3ruJ5/kd3+ZKxAWOyDrvNHn0x9B64A8ZButo2IR8ZEA0KkDpTysOvlZn0C/XQPzYMWqv93+ERAmTkU87QVyTJHgcxdRj3eyeav/rYvMZo/xN8BU8mJDoWxbvcjCyPhpvhUbabRrvhf39VxOpw+P6w2goOnQIKKSa133QHCNwDoygS/edRbTaQ+8VggbhZxBspxymBhwMSqYUvbBtiyIKOS/loI7m9YlM0zJjQvn0gOGmJKUk9NQnd3MD3b91wIU1mw7n2b3547PVGcH1jtJjTkZRaNWsJ3VzHXyquMRA7RRmHiY4RrJCWAQ3FkW2R0AQ4Lp+28/a//LryPmkPJ3FugY0iJU8v0M+9l5VEQ6rpu9EghQ/m2QeN04dwSWknoA02vw2TSjZUL/FW3JQZl05BUbpmcfZkdHbbFQV/piNNtUg4y/ty/HzdCGLV7F7sK09Cugh1VEuODjYwoojRmhsavw8AmCybvv2cURLxcGMH3u7hhz7CUkOqoXsm8Hz3AavcxKkGffkRhFLEHGlrFp0ymzKaK9zi4rOf6TOBiQ0LWMOuelzDynFD4gVx1+HylAgZ+r41Ws7CgK6w3eqdSfRgXcpOlaYMrSTzxCpIn6PrZk=
   app: test
   domain: iteventstest
   on:
@@ -28,3 +24,4 @@ after_success:
 - git config --global user.name "Travis CI"
 - git add --all
 - git commit -m "Travis change"
+
