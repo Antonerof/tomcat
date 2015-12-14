@@ -19,6 +19,7 @@ deploy:
   domain: iteventstest
   on:
     repo: Antonerof/tomcat
+    all_branches: true
 after_success:
 - git config --global user.email "travis@localhost.localdomain"
 - git config --global user.name "Travis CI"
