@@ -19,7 +19,7 @@ targetCompatibility = 1.7
 
 war{
     archiveName = 'ROOT.war'
-    destinationDir = file(projectDir.toString().replace('\\', '/') + '/webapps')
+    destinationDir = file(projectDir.toString().replace('\\', '/') + '/src/main/webapp')
 }
 
 
