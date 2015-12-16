@@ -15,7 +15,7 @@ deploy:
   user: anttoshka@gmail.com
   password:
     secure: n0DjOa5M38/kt8A5ef9b4JQkBwtr/0hte3wH0nVZsZ9GhV3huGzlbV8zVxE4+okR3ruJ5/kd3+ZKxAWOyDrvNHn0x9B64A8ZButo2IR8ZEA0KkDpTysOvlZn0C/XQPzYMWqv93+ERAmTkU87QVyTJHgcxdRj3eyeav/rYvMZo/xN8BU8mJDoWxbvcjCyPhpvhUbabRrvhf39VxOpw+P6w2goOnQIKKSa133QHCNwDoygS/edRbTaQ+8VggbhZxBspxymBhwMSqYUvbBtiyIKOS/loI7m9YlM0zJjQvn0gOGmJKUk9NQnd3MD3b91wIU1mw7n2b3547PVGcH1jtJjTkZRaNWsJ3VzHXyquMRA7RRmHiY4RrJCWAQ3FkW2R0AQ4Lp+28/a//LryPmkPJ3FugY0iJU8v0M+9l5VEQ6rpu9EghQ/m2QeN04dwSWknoA02vw2TSjZUL/FW3JQZl05BUbpmcfZkdHbbFQV/piNNtUg4y/ty/HzdCGLV7F7sK09Cugh1VEuODjYwoojRmhsavw8AmCybvv2cURLxcGMH3u7hhz7CUkOqoXsm8Hz3AavcxKkGffkRhFLEHGlrFp0ymzKaK9zi4rOf6TOBiQ0LWMOuelzDynFD4gVx1+HylAgZ+r41Ws7CgK6w3eqdSfRgXcpOlaYMrSTzxCpIn6PrZk=
-  app: test
+  app: jbossews
   domain: iteventstest
   on:
     repo: Antonerof/tomcat
